@@ -1,5 +1,7 @@
 # pi-web-cloudflare
 
+[English](./README.en.md) | 中文
+
 用 **Cloudflare 免费档**（不绑卡）给 [pi-web](https://github.com/agegr/pi-web) 一个公网入口：
 Cloudflare Pages 反代 + Cloudflare Tunnel，附 **SSE 兼容改造**。
 
