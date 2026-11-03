@@ -1,0 +1,6 @@
+.env
+.password
+state/
+node_modules/
+.DS_Store
+*.log

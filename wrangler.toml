@@ -1,0 +1,10 @@
+# Cloudflare Pages 项目配置（用于 `wrangler pages deploy public`）。
+# 部署前把下面的 id 换成你自己的 KV namespace id：
+#   npx wrangler kv namespace create PI_WEB_KV
+name = "pi-web-cf"
+compatibility_date = "2026-10-23"
+pages_build_output_dir = "public"
+
+[[kv_namespaces]]
+binding = "PI_WEB_KV"
+id = "<your-kv-namespace-id>"
